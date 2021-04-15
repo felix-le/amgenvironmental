@@ -1,5 +1,10 @@
+import ReadFile from './ReadFile';
 function App() {
-  return <h1 className='App'>hello world!</h1>;
+  return (
+    <>
+      <ReadFile />
+    </>
+  );
 }
 
 export default App;
